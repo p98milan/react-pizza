@@ -1,0 +1,32 @@
+.notFound{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.emptyBg{
+    height: 40vh;
+    width: 100%;
+    background: url(../assets/empty.jpg) no-repeat center/cover;
+}
+
+.notFound-content{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notFound-content a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #121619;
+}
+
+.notFound-content a:hover{
+    color: #fa3011;
+}
